@@ -1,11 +1,11 @@
 import './assets/App.css'
 import Navegacion from './components/Navegacion/Navegacion'
-//import 'bootstrap/dist/css/bootstrap.min.css'
-
+import Seccion1 from './components/Seccion1/Seccion1'
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navegacion/>
+      <Seccion1/>
     </div>
   )
 }
