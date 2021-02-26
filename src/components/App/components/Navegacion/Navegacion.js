@@ -1,7 +1,6 @@
 import './assets/Navegacion.css'
-import logo from './assets/img/alien.png'
 
-export default function Navegacion() {
+export default function Navegacion({logo}) {
   return (
     <div className="navegacion">
       <div className="logo"><img src={logo}/></div>

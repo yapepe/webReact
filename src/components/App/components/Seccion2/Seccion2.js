@@ -1,7 +1,7 @@
 import './assets/Seccion2.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-  export default function Seccion2({ titulo, p, titulo2, p2, titulo3, p3 }) {
+  export default function Seccion2() {
       return (
           
         <div className="seccion2">
@@ -9,18 +9,18 @@ import { Container, Row, Col } from 'react-bootstrap'
             <Container fluid>
                   <Row>
                     <Col lg={4}>
-                      <h1>{titulo}</h1>
-                      <p>{p}</p>
+                      <h1>FFFFFF</h1>
+                      <p>NONONONONONONONONONON</p>
                     </Col>
 
                         <Col lg={4}>
-                          <h1>{titulo2}</h1>
-                          <p>{p2}</p>
+                          <h1>FFFFFF</h1>
+                          <p>NONONONONONONONONONON</p>
                         </Col>
 
                           <Col lg={4}>
-                            <h1>{titulo3}</h1>
-                            <p>{p3}</p>
+                            <h1>FFFFFF</h1>
+                            <p>NONONONONONONONONONON</p>
                           </Col>
                   </Row>
               </Container>

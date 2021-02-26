@@ -1,5 +1,19 @@
 .footer {
     width: 100vw;
-    height: 100vh;
+    height: 15vh;
     background-color:springgreen;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+            .footer__contenido {
+                
+                text-align: center;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+
+            }
 }
