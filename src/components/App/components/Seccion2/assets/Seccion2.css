@@ -1,0 +1,16 @@
+.seccion2 {
+  width: 100vw;
+  height: 40vh;
+  background-color: aqua;
+  top: 80px;
+  position: relative;
+}
+
+.seccion2 .seccion2__contenido {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*# sourceMappingURL=Seccion2.css.map */
