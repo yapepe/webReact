@@ -1,9 +1,27 @@
 .navegacion {
     background-color: white;
     width: 100vw;
-    height: 80px;
+    height: 100px;
     position: fixed;
     z-index: 1;
+
+    .navegacion__icono {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 20px;
+        right: calc(12vw - 20px);
+        display: flex;
+        justify-content: flex-end;
+        width: 60px;
+        height: 50px;
+        display: none;
+        cursor: pointer;
+
+        &:hover {
+            filter: drop-shadow(0 0 0.75rem crimson);
+        }
+
+    }
 
     .logo {
         position: absolute;
@@ -18,7 +36,7 @@
     .links {
         font-size: 1.2rem;
         position: absolute;
-        top: 40px;
+        top: 50%;
         right: calc(12vw - 40px);
         display: flex;
         justify-content: flex-end;
@@ -27,6 +45,41 @@
             margin-left: 10%;
         }
     }
+
+    @media screen 
+    and (max-width:760px) 
+    and (orientation:portrait) {
+        .navegacion__icono {
+            display:block !important;
+        }
+        .links {
+            display:none !important;
+        }
+    }
+
+    .links--desplegable {
+        display: block !important;
+        background-color: chartreuse;
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+
+        .links__link {
+            margin-left: 0;
+        }
+    }
+    
+    .links--desplegable--despues {
+        top: 80px;
+    }
+
 }
+
+.navegacion--comprimida {
+    height: 80px;
+}
+
 
 

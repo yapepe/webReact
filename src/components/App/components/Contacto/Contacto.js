@@ -5,7 +5,9 @@ import {Form, Button , Col} from 'react-bootstrap'
       return (
         <div className="contacto">
           <div className="contacto__contenido">
-            <h1>CONTACTO</h1>
+            <h1>Ffffffffffffffffffffffffffff</h1>
+            <p>fffffffffffffffffffffffffffffffffffff.  fffff ffff fffffffff fff ff f f f ff fffffffffffff </p>
+            <h1>Contacto</h1>
             <br />
             <Form>
               <Form.Row>

@@ -15,11 +15,11 @@
   padding-right: 5%;
 }
 
-.contacto .formulario--chico {
+.contacto .contacto__contenido .formulario--chico {
   margin-bottom: 22px;
 }
 
-.contacto .formulario--grande {
+.contacto .contacto__contenido .formulario--grande {
   padding: 10px;
 }
 /*# sourceMappingURL=Contacto.css.map */

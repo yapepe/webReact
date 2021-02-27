@@ -1,6 +1,5 @@
 .seccion2 {
   width: 100%;
-  height: 40vh;
   background-color: aqua;
   top: 80px;
   position: relative;
@@ -13,6 +12,14 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.seccion2 .seccion2__contenido p {
+  max-width: 580px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
 }
 
 .seccion2 .seccion2__iconos {
