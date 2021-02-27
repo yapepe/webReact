@@ -1,17 +1,10 @@
 .seccion1 {
-  width: 100vw;
-  height: 40vh;
   background-color: red;
+  position: relative;
   top: 80px;
-  position: relative;
-  min-height: 300px;
-}
-
-.seccion1 .seccion1__contenido {
+  padding: 25%;
   text-align: center;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  /* top: 50%;
+    transform: translateY(-50%); */
 }
 /*# sourceMappingURL=Seccion1.css.map */

@@ -27,10 +27,9 @@ import { useState } from 'react'
       .then(() => alert('e-mail enviado con éxito'))
       .catch(err => console.log(err))
     }
-    
+
       return (
         <div className="contacto">
-          <div className="contacto__contenido">
             <h1>Ffffffffffffffffffffffffffff</h1>
             <p>fffffffffffffffffffffffffffffffffffff.  fffff ffff fffffffff fff ff f f f ff fffffffffffff </p>
             <h1>Contacto</h1>
@@ -46,6 +45,7 @@ import { useState } from 'react'
                   />
                   <Form.Control type="text" placeholder="Telefono" className="formulario--chico" 
                   onChange = { (event) =>  setTelefono(event.target.value)  }
+                  //meter REQUERIDO
                   />
                 </Form.Group>
                   <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
@@ -59,7 +59,6 @@ import { useState } from 'react'
                 Submit
               </Button>
             </Form>
-          </div>
         </div>
       );
     }

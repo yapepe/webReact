@@ -1,25 +1,15 @@
 .contacto {
-  width: 100vw;
-  height: 70vh;
-  background-color: peru;
-}
-
-.contacto .contacto__contenido {
+  background-color: darkorange;
   text-align: center;
-  background-color: teal;
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-42%);
-          transform: translateY(-42%);
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 10% 5%;
 }
 
-.contacto .contacto__contenido .formulario--chico {
+.contacto .formulario--chico {
   margin-bottom: 22px;
 }
 
-.contacto .contacto__contenido .formulario--grande {
+.contacto .formulario--grande {
   padding: 10px;
 }
 /*# sourceMappingURL=Contacto.css.map */
