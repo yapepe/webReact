@@ -4,7 +4,7 @@ import './assets/Footer.css'
       return (
         <div className="footer">
           <div className="footer__contenido">
-            <h1>Solipsi Rai blabla</h1>
+            <h1>©Solipsi Rai 2021</h1>
             <img src={logo} alt="Logo" />
           </div>
         </div>

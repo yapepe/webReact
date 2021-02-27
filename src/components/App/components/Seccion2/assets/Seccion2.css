@@ -4,7 +4,6 @@
   background-color: aqua;
   top: 80px;
   position: relative;
-  min-height: 500px;
 }
 
 .seccion2 .seccion2__contenido {
@@ -14,5 +13,10 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.seccion2 .seccion2__iconos {
+  width: 90px;
+  height: 90px;
 }
 /*# sourceMappingURL=Seccion2.css.map */
