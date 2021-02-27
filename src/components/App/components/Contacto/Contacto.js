@@ -9,6 +9,7 @@ import { useState } from 'react'
     const [ mensaje, setMensaje ] = useState(' ')
     const asunto = 'CONTACTO WEB'
     const url = 'https://solipsi-landing-server.herokuapp.com/contacto'
+
     const click = () => {
       if(nombre === ' ' || email === ' ' || telefono === ' '){
         return
@@ -26,6 +27,7 @@ import { useState } from 'react'
       .then(() => alert('e-mail enviado con éxito'))
       .catch(err => console.log(err))
     }
+    
       return (
         <div className="contacto">
           <div className="contacto__contenido">
