@@ -21,6 +21,7 @@
   height: 50px;
   display: none;
   cursor: pointer;
+  z-index: 3;
 }
 
 .navegacion .navegacion__icono:hover {
@@ -63,7 +64,7 @@
   color: darksalmon;
 }
 
-@media screen and (max-width: 760px) and (orientation: portrait) {
+@media all and (max-width: 760px) and (orientation: portrait) {
   .navegacion .navegacion__icono {
     display: block !important;
   }

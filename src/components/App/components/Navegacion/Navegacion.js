@@ -57,7 +57,7 @@ export default function Navegacion({logo}) {
 
   return (
     <div className="navegacion" ref={refComprimido}>
-      <div className="logo"><img src={logo}/></div>
+      <div className="logo"><img src={logo} alt="logo de solipsi rai"/></div>
       <div><List className="navegacion__icono" onClick={ () => abrirDesplegable() } /></div>
       <div className="cerrar" onClick={ () => cerrarDesplegable() } ref={refCerrado} ></div>
       <div className="links" ref={refDesplegable}>

@@ -16,6 +16,7 @@
         height: 50px;
         display: none;
         cursor: pointer;
+        z-index: 3;
 
         &:hover {
             filter: drop-shadow(0 0 0.75rem crimson);
@@ -54,7 +55,7 @@
         }
     }
 
-    @media screen 
+    @media all 
     and (max-width:760px) 
     and (orientation:portrait) {
         .navegacion__icono {
