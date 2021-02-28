@@ -34,7 +34,7 @@ export default function Contacto() {
   }
 
   return (
-    <div className="contacto">
+    <div className="contacto-web">
         <h1>Ffffffffffffffffffffffffffff</h1>
         <p>fffffffffffffffffffffffffffffffffffff.  fffff ffff fffffffff fff ff f f f ff fffffffffffff </p>
         <h1>Contacto</h1>
@@ -42,19 +42,19 @@ export default function Contacto() {
         <Form>
           <Form.Row>
             <Form.Group as={Col} controlId="formGridEmail">
-              <Form.Control type="text" placeholder="Nombre" className="formulario--chico" 
+              <Form.Control type="text" placeholder="Nombre" className="contacto-web__formulario--chico" 
                 onChange = { (event) => setNombre(event.target.value) }
               />
-              <Form.Control type="email" placeholder="Email" className="formulario--chico" 
+              <Form.Control type="email" placeholder="Email" className="contacto-web__formulario--chico" 
               onChange = { (event) =>  setEmail(event.target.value)   }
               />
-              <Form.Control type="text" placeholder="Telefono" className="formulario--chico" 
+              <Form.Control type="text" placeholder="Telefono" className="contacto-web__formulario--chico" 
               onChange = { (event) =>  setTelefono(event.target.value)  }
               //meter REQUERIDO
               />
             </Form.Group>
               <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
-                <Form.Control as="textarea" rows={5} placeholder="Mensaje" className="formulario--grande" 
+                <Form.Control as="textarea" rows={5} placeholder="Mensaje" className="contacto-web__formulario--grande" 
                 onChange = { (event) => setMensaje(event.target.value) }
                 />
               </Form.Group>

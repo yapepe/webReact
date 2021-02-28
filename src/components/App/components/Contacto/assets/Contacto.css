@@ -1,15 +1,15 @@
-.contacto {
+.contacto-web {
   background-color: darkorange;
   text-align: center;
   position: relative;
   padding: 10% 5%;
 }
 
-.contacto .formulario--chico {
+.contacto-web .contacto-web__formulario--chico {
   margin-bottom: 22px;
 }
 
-.contacto .formulario--grande {
+.contacto-web .contacto-web__formulario--grande {
   padding: 10px;
 }
 /*# sourceMappingURL=Contacto.css.map */

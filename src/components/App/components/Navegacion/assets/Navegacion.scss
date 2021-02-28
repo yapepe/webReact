@@ -24,7 +24,7 @@
 
     }
 
-    .logo {
+    .navegacion__logo {
         position: absolute;
         left: calc(12vw - 40px);
 
@@ -34,7 +34,7 @@
         }
     }
 
-    .links {
+    .navegacion__links {
         font-size: 1.2rem;
         position: absolute;
         top: 50%;
@@ -42,11 +42,12 @@
         display: flex;
         justify-content: flex-end;
 
-        .links__link {
+        .navegacion__links__link {
             margin-left: 10%;
             
             &:hover {
                 color: darksalmon;
+                cursor: pointer;
             }
 
             &:active {
@@ -61,12 +62,12 @@
         .navegacion__icono {
             display:block !important;
         }
-        .links {
+        .navegacion__links {
             display:none !important;
         }
     }
 
-    .links--desplegable {
+    .navegacion__links--desplegable {
         display: block !important;
         background-color: chartreuse;
         position: fixed;
@@ -78,24 +79,24 @@
         padding: 10%;
         text-align: center;
 
-        .links__link {
+        .navegacion__links__link {
             margin-left: 0;
             margin-top: 5%;
         }
     }
 
-    .cerrar {
+    .navegacion__cerrar {
         width: 100vw;
         height: 100vh;
         display: none;
     }
 
-    .cerrar--despues {
+    .navegacion__cerrar--despues {
         background-color: none;
         display: block;
     }
     
-    .links--desplegable--despues {
+    .navegacion__links--desplegable--despues {
         top: 80px;
     }
 
